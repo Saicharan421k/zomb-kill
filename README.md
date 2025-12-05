@@ -35,21 +35,27 @@
    cd zomb-kill
    
 **2.Install Dependencies**
-install -r requirements.txt
+
+-install -r requirements.txt
 
 **3.Run the GameBash**
-python main.py
+
+-python main.py
 
 **ControlsMouse:**
-Aim the crosshair.
-Left Click: Shoot zombie (Terminates Process).
-ESC: Quit Game.
+
+-Aim the crosshair.
+-Left Click: Shoot zombie (Terminates Process).
+-ESC: Quit Game.
 
 **🧠 How Kiro Was Used**
-This project was built specifically for the Kiroween Hackathon to demonstrate the power of AI-assisted development.
+
+-This project was built specifically for the Kiroween Hackathon to demonstrate the power of AI-assisted development.
 
 **Feature How we used it**
 
-**Vibe Coding -** Generated the backend logic. We asked Kiro to "Write a psutil script that outputs a JSON of processes formatted like RPG monsters," and it handled the complex system API calls automatically.
-**Steering Docs -** We uploaded the PyGame documentation into Kiro's context. This allowed the AI to write a bug-free rendering loop and collision detection system without hallucinating non-existent methods.
-**.kiro Specs -** We used a spec file (located in /.kiro/specs.md) to define the safety constraints, ensuring the AI knew never to target root processes.
+-**Vibe Coding -** Generated the backend logic. We asked Kiro to "Write a psutil script that outputs a JSON of processes formatted like RPG monsters," and it handled the complex system API calls automatically.
+
+-**Steering Docs -** We uploaded the PyGame documentation into Kiro's context. This allowed the AI to write a bug-free rendering loop and collision detection system without hallucinating non-existent methods.
+
+-**.kiro Specs -** We used a spec file (located in /.kiro/specs.md) to define the safety constraints, ensuring the AI knew never to target root processes.
